@@ -10,7 +10,7 @@ namespace LogicalProgramesDay6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("select choice:\n1.Fibonacci Series\n2.Perfect Number Identification\n3.Prime Number or not");
+            Console.WriteLine("select choice:\n1.Fibonacci Series\n2.Perfect Number Identification\n3.Prime Number or not\n4.Reverse given number");
             int choice=int.Parse(Console.ReadLine());
             switch(choice)
             {
@@ -22,6 +22,9 @@ namespace LogicalProgramesDay6
                     break;
                 case 3:
                     PrimeNumberOrNot.PrimeNumberIdentification();
+                    break ;
+                case 4:
+                    ReverseANumber.reverseNumber();
                     break ;
                     default:
                     Console.WriteLine("please enter the correct choice");
