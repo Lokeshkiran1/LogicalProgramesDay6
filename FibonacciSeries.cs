@@ -13,7 +13,7 @@ namespace LogicalProgramesDay6
             int a = 0,b=1,c=0;
             Console.WriteLine("enter the range of Fibonacci Series:");
             int n=int.Parse(Console.ReadLine());
-            Console.WriteLine("{0},\n{1}",a,b);
+            Console.WriteLine("{0}\n{1}",a,b);
             for(int i=2;i<n;i++)
             {
                 c = a + b;
