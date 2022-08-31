@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\csharp\LogicalProgramesDay6\bin\Debug\LogicalProgramesDay6.exe.config
+C:\Users\HP\Desktop\csharp\LogicalProgramesDay6\bin\Debug\LogicalProgramesDay6.exe
+C:\Users\HP\Desktop\csharp\LogicalProgramesDay6\bin\Debug\LogicalProgramesDay6.pdb
+C:\Users\HP\Desktop\csharp\LogicalProgramesDay6\obj\Debug\LogicalProgramesDay6.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\csharp\LogicalProgramesDay6\obj\Debug\LogicalProgramesDay6.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\csharp\LogicalProgramesDay6\obj\Debug\LogicalProgramesDay6.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\csharp\LogicalProgramesDay6\obj\Debug\LogicalProgramesDay6.exe
+C:\Users\HP\Desktop\csharp\LogicalProgramesDay6\obj\Debug\LogicalProgramesDay6.pdb
