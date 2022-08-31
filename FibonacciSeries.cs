@@ -10,16 +10,16 @@ namespace LogicalProgramesDay6
     {
         public static void fibonacciSeries()
         {
-            int a = 0,b=1,c=0;
+            int num1 = 0,num2=1,sum=0;
             Console.WriteLine("enter the range of Fibonacci Series:");
-            int n=int.Parse(Console.ReadLine());
-            Console.WriteLine("{0}\n{1}",a,b);
-            for(int i=2;i<n;i++)
+            int range=int.Parse(Console.ReadLine());
+            Console.WriteLine("{0}\n{1}",num1,num2);
+            for(int i=2;i<range;i++)
             {
-                c = a + b;
-                Console.WriteLine("{0}",c);
-                a = b;
-                b = c;
+                sum = num1 + num2;
+                Console.WriteLine("{0}",sum);
+                num1 = num2;
+                num2 = sum;
             }
         }
     }
