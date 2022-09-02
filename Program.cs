@@ -10,7 +10,7 @@ namespace LogicalProgramesDay6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("select choice:\n1.Fibonacci Series\n2.Perfect Number Identification\n3.Prime Number or not\n4.Reverse given number\n5.stop watch");
+            Console.WriteLine("select choice:\n1.Fibonacci Series\n2.Perfect Number Identification\n3.Prime Number or not\n4.Reverse given number\n5.stop watch\n6.Coupan Number Generate");
             int choice=int.Parse(Console.ReadLine());
             switch(choice)
             {
@@ -28,6 +28,9 @@ namespace LogicalProgramesDay6
                     break ;
                 case 5:
                     StopWatchProgram.stopWatch();
+                    break;
+                case 6:
+                    CoupansGenerate.RandomCoupon();
                     break;
                     default:
                     Console.WriteLine("please enter the correct choice");
